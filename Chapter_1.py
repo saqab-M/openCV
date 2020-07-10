@@ -2,9 +2,8 @@ import cv2
 print("opencv imported")
 
 #load image
-img = cv2.imread("res/david.jpg")
-imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-cv2.imshow("output", imgGray)
+img = cv2.imread("res/lena.png")
+cv2.imshow("output", img)
 cv2.waitKey(0)
 
 #load video
