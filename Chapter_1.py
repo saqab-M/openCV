@@ -2,9 +2,7 @@ import cv2
 print("opencv imported")
 
 #load image
-img = cv2.imread("res/lena.png")
-cv2.imshow("output", img)
-cv2.waitKey(0)
+
 
 #load video
 
